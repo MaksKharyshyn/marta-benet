@@ -1,3 +1,138 @@
+ /* header styles */
+
 .header {
-    background: url(/images/main-bg.jpg);  
+    background: url(/images/main-bg.jpg);
 }
+
+.nav_block {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 48px 64px 0 64px;
+  }
+
+.header_list {
+    display: flex;
+}
+
+.header_item {
+    margin-right: 16px;
+}
+
+.header_link {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.contact_list {
+    display: flex;
+}
+
+.contact_item {
+    margin-right: 16px;
+}   
+
+.contact_item:last-child {
+    margin-right: 0;
+}
+
+.contact_link {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.mr {
+    margin-right: 32px;
+}
+
+.logo_wrapper {
+    padding-top: 408px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+
+/* craft styles */
+
+.craft {
+    padding: 100px 0 0 64px;
+  }
+  
+.craft_top_container {
+    width: 575px;
+    margin-bottom: 64px;
+  }
+
+.craft_top_title {
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.craft_top_btn {
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: inherit;
+    padding: 5px 27px;
+}   
+
+.craft_middle_img {
+    margin-right: 24px;
+}
+
+.craft_middle_img:last-child {
+    margin-right: 0;
+}
+
+.craft_bottom_text {
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+}
+
+.craft_text_1 {
+    margin-bottom: 16px;
+}
+
+.craft_bottom_btn {
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: inherit;
+    padding: 1px 25px;
+    margin-top: 37px;
+}
+
+/* 
+
+
