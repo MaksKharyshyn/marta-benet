@@ -192,6 +192,10 @@
 
 /* projects styles */
 
+.projects {
+    margin-bottom: 192px;
+}
+
 .projects_title {
     font-family: Roboto;
     font-size: 51px;
@@ -248,6 +252,8 @@
     line-height: 80px;
     text-align: center;
     color: #000000;
+    margin-left: -110px;
+    margin-bottom: 64px;
 }
 
 .services_list {
@@ -294,6 +300,12 @@
     color: #000000;
 }
 
+.serv_btn {
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+}
+
 .services_btn {
     font-family: Cardo;
     font-size: 17px;
@@ -304,7 +316,109 @@
     background-color: inherit;
     border-radius: 10px;
     border: 1px solid #000000;
+    padding: 5px 25px;
 }
+
+/* novelties styles */
+
+.novelties {
+    margin-top: 200px;
+}
+
+.novelties_list {
+    display: flex;
+    justify-content: center;
+}
+
+.novelties_item {
+    margin-right: 40px;
+}
+
+.novelties_title_block {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.novelties_sub_title {
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #000000;
+}
+
+.novelties_img {
+    margin-bottom: 16px;
+}
+
+.novelties_text {
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* footer styles */
+
+.footer {
+    padding: 0 64px 32px 64px;
+    margin-top: 150px;
+}
+
+.footer_nav_list {
+    display: flex;
+}
+
+.footer_nav {
+    margin-bottom: 34px;
+}
+
+.footer_nav_item {
+    margin-right: 16px;
+}
+
+.footer_nav_item:last-child {
+    margin-right: 0;
+} 
+
+.footer_nav_link {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.subfooter_left_text {
+    font-family: Cardo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+
+.subfooter_right_text {
+    font-family: Cardo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
