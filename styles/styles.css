@@ -99,12 +99,30 @@
     padding: 5px 27px;
 }   
 
+.craft_middle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.photo1 {
+    margin-right: 24px;
+}
+
 .craft_middle_img {
     margin-right: 24px;
 }
 
 .craft_middle_img:last-child {
     margin-right: 0;
+}
+
+.craft_1_img {
+    margin-bottom: -96px;
+}
+
+.craft_bottom {
+    margin-top: 165px;
 }
 
 .craft_bottom_text {
